@@ -6,11 +6,12 @@ Output is simlar to the one produced by the Matlab
 [pretty](http://www.mathworks.com/help/symbolic/pretty.html)
 function.
 
-Example:
---------
 
-> #### **$** ./pretty '(a/(b+2))/3*(x^3^a-y^b^(1+a/b))+10'
+### Example:
+
+> #### $ ./pretty '(a/(b+2))/3*(x^3^a-y^b^(1+a/b))+10'
 >
+> ```
 >          a              
 >        -----            
 >        b + 2            
@@ -20,4 +21,4 @@ Example:
 > 3 |  a     \    b/|     
 >   | 3     b       |     
 >   \x   - y        /     
-
+> ```
